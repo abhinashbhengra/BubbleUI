@@ -7,12 +7,13 @@
 nav {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   color: azure;
-  padding: 36px 95px;
+  padding: 14px 95px;
   border-bottom: 1px solid #ffe8a8;
   /* position: relative; */
-  /* position: fixed; */
+  position: fixed;
 }
 nav .docs-link {
   display: flex;
@@ -51,7 +52,7 @@ a:active {
   align-items: center;
   margin: 0px 30px;
   margin-bottom: 116px;
-  padding-top: 70px;
+  padding-top: 150px;
   padding-left: 120px;
 }
 .hero-section .left-section .heading {
@@ -149,4 +150,5 @@ a:active {
 .abhinash {
   color: #fff;
   text-align: center;
+  margin-bottom: 8px;
 }
