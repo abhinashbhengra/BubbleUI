@@ -124,7 +124,7 @@
               <img src="/images/tick.svg" alt="tick" />
             </div>
             <div class="clipboard-hide">
-              <p>Copy code</p>
+              <p>Copied!</p>
             </div>
           </div>
           <div id="color-second">
@@ -229,13 +229,10 @@
       const hint = document.querySelectorAll(".clipboard-hide");
       const check = document.querySelector(".check-copied");
       button.addEventListener("click", () => {
-        // code.select()
-        hint.textContent = "copied!";
         navigator.clipboard.writeText(code.textContent);
         check.style.display = "block";
         button.style.display = "none";
-        setInterval(() => {
-          hint.textContent = "Copy code";
+        setTimeout(() => {
           check.style.display = "none";
           button.style.display = "block";
         }, 5000);
