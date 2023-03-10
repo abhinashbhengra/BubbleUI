@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
     />
+    <script src="./colors.js" defer></script>
   </head>
   <body>
     <nav>
@@ -97,9 +98,10 @@
               veniam. Nam aperiam laborum dolorem labore natus?
             </p>
           </div>
-          <div class="code-part">
+          <!-- first code section -->
+          <div class="code-part01">
             <pre>
-                <code class="copy-code">
+                <code class="copy-code01">
                     &lt;!DOCTYPE html&gt;
                         &lt;html&gt;
                         &lt;head&gt;
@@ -114,16 +116,16 @@
                 
             </pre>
 
-            <div class="clipboard-btn">
+            <div class="clipboard-btn01">
               <img src="/images/clipboard.svg" alt="clipboard" />
             </div>
-            <div class="clipboard-hide">
+            <div class="clipboard-hide01">
               <p>Copy code</p>
             </div>
-            <div class="check-copied">
+            <div class="check-copied01">
               <img src="/images/tick.svg" alt="tick" />
             </div>
-            <div class="clipboard-hide">
+            <div class="clipboard-hide01">
               <p>Copied!</p>
             </div>
           </div>
@@ -142,6 +144,37 @@
               impedit, libero error itaque, commodi laudantium, optio quas. Ad,
               veniam. Nam aperiam laborum dolorem labore natus?
             </p>
+          </div>
+          <!-- second code section -->
+          <div class="code-part02">
+            <pre>
+                <code class="copy-code02">
+                    &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;title&gt;FreeWebToolkit&lt;/title&gt;
+                            &lt;meta charset=&quot;UTF-8&quot; /&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h1&gt;Welcome&lt;/h1&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+                
+            </pre>
+
+            <div class="clipboard-btn02">
+              <img src="/images/clipboard.svg" alt="clipboard" />
+            </div>
+            <div class="clipboard-hide02">
+              <p>Copy code</p>
+            </div>
+            <div class="check-copied02">
+              <img src="/images/tick.svg" alt="tick" />
+            </div>
+            <div class="clipboard-hide02">
+              <p>Copied!</p>
+            </div>
           </div>
           <div id="colorsSelection">
             <p style="color: blanchedalmond">
@@ -205,38 +238,21 @@
             <p>Table of contents</p>
           </div>
           <div class="page-section-list">
-            <ul>
+            <ul class="on-this-page-list">
               <li class="right-first">
                 <a href="#colorsSelection">Select Colors</a>
               </li>
-              <li class="colors"><a href="">Colors</a></li>
+              <li class="right-second"><a href="">Colors</a></li>
               <li><a href="">Typography</a></li>
               <li><a href="">Utilities</a></li>
             </ul>
           </div>
         </div>
       </section>
-
-      <!-- Content on this Page Section -->
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
-    </script>
-    <script>
-      const code = document.querySelector(".copy-code");
-      const button = document.querySelector(".clipboard-btn");
-      const hint = document.querySelectorAll(".clipboard-hide");
-      const check = document.querySelector(".check-copied");
-      button.addEventListener("click", () => {
-        navigator.clipboard.writeText(code.textContent);
-        check.style.display = "block";
-        button.style.display = "none";
-        setTimeout(() => {
-          check.style.display = "none";
-          button.style.display = "block";
-        }, 5000);
-      });
     </script>
   </body>
 </html>
