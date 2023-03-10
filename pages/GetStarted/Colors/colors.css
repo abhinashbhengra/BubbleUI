@@ -182,8 +182,8 @@ a:active {
 }
 
 .right-first {
-  background-color: #1a3b5e;
-  border-left: 1px solid #3697ff;
+  /* background-color: #1a3b5e;
+  border-left: 1px solid #3697ff; */
 }
 /* selection styling */
 .color {
@@ -210,40 +210,39 @@ a:active {
 .content #color-second {
   color: #a6a7ab;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 23px;
 }
 
 /* code section ------------------------------------------------*/
-.code-part {
+/* 1 ---*/
+.code-part01 {
   position: relative;
 }
-.code-part .clipboard-btn {
-  /* display: none; */
+.clipboard-btn01 {
   position: absolute;
   top: 20px;
   right: 5px;
 }
-.check-copied {
+.check-copied01 {
   display: none;
   position: absolute;
   top: 20px;
   right: 5px;
 }
-
-.clipboard-btn:hover {
+.clipboard-btn01:hover {
   cursor: pointer;
 }
-.clipboard-btn:hover + .clipboard-hide {
+.clipboard-btn01:hover + .clipboard-hide01 {
   display: block;
 }
-.check-copied:hover {
+.check-copied01:hover {
   cursor: pointer;
 }
-.check-copied:hover + .clipboard-hide {
+.check-copied01:hover + .clipboard-hide01 {
   display: block;
 }
-.clipboard-hide {
+.clipboard-hide01 {
   display: none;
   position: absolute;
   top: 20px;
@@ -259,7 +258,60 @@ a:active {
   font-size: 13px;
   line-height: 22px;
 }
-.code-part code {
+.code-part01 code {
+  background-color: #141517;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* 2---- */
+.code-part02 {
+  position: relative;
+}
+.clipboard-btn02 {
+  /* display: none; */
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+.check-copied02 {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+.clipboard-btn02:hover {
+  cursor: pointer;
+}
+.clipboard-btn02:hover + .clipboard-hide02 {
+  display: block;
+}
+.check-copied02:hover {
+  cursor: pointer;
+}
+.check-copied02:hover + .clipboard-hide02 {
+  display: block;
+}
+.clipboard-hide02 {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 49px;
+  background-color: #fff;
+  color: #141517;
+  padding: 9px;
+  padding-right: 15px;
+  clip-path: polygon(0 0, 95% 0, 95% 40%, 100% 50%, 95% 60%, 95% 100%, 0 100%);
+  /* border-radius: 4px; */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 22px;
+}
+.code-part02 code {
   background-color: #141517;
   border-radius: 6px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
