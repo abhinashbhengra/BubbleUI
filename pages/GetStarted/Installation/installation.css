@@ -48,7 +48,7 @@ nav {
   font-weight: 200;
 }
 .docs-link p:hover {
-  color: #297083;
+  color: #fff;
 }
 .media-link {
   /* border: 1px solid red; */
@@ -105,6 +105,9 @@ a:active {
   padding-left: 20px;
   font-size: 14px;
   font-weight: 500;
+}
+.left-container li {
+  border: 1px solid transparent;
 }
 .left-container li a {
   font-family: "Greycliff CF", -apple-system, "system-ui", "Segoe UI", Roboto,
@@ -283,7 +286,9 @@ a:active {
 .install {
   background-color: #25262b;
   border-radius: 3px;
-  border-left: 1px solid #53545e;
+}
+.install p {
+  color: #fff;
 }
 
 /* Content Section // specific to indiviual Page */
