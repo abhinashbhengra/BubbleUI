@@ -106,6 +106,9 @@ a:active {
   font-size: 14px;
   font-weight: 500;
 }
+.left-container li {
+  border: 1px solid transparent;
+}
 .left-container li a {
   font-family: "Greycliff CF", -apple-system, "system-ui", "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
