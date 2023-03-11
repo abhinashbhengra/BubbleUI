@@ -43,6 +43,13 @@ nav {
   display: flex;
   gap: 12px;
 }
+.docs-link p {
+  color: rgb(196, 196, 196);
+  font-weight: 200;
+}
+.docs-link p:hover {
+  color: #297083;
+}
 .media-link {
   /* border: 1px solid red; */
   display: flex;
@@ -277,6 +284,9 @@ a:active {
   background-color: #25262b;
   border-radius: 3px;
   border-left: 1px solid #53545e;
+}
+.color p {
+  color: #fff;
 }
 
 /* Content Section // specific to indiviual Page */
