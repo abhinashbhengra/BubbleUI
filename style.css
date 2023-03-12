@@ -121,6 +121,9 @@ a:active {
   border-radius: 9999px;
   cursor: pointer;
 }
+.hero-btn p {
+  font-size: 15px;
+}
 .hero-btn:hover {
   background-color: #2d2e35;
 }
@@ -130,12 +133,12 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 67px;
+  margin-bottom: 20px;
 }
 .second-section p {
   color: #fff;
   font-size: 56px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* button section */
@@ -146,19 +149,37 @@ a:active {
   justify-content: center;
   margin-bottom: 114px;
 }
-.btn-section .docs-btn button {
+.docs-btn button {
+  background-color: #25262b;
   color: #fff;
-  width: 145px;
-  height: 40px;
-  border: 1px solid #ffe8a8;
+  border: none;
+  width: 190px;
+  height: 60px;
+  border: 1px solid#4c5256;
   border-radius: 9999px;
+  cursor: pointer;
 }
-.btn-section .comp-btn button {
+.docs-btn button p {
+  font-size: 15px;
+}
+.docs-btn button:hover {
+  background-color: #2d2e35;
+}
+.comp-btn button {
+  background-color: #25262b;
   color: #fff;
-  width: 145px;
-  height: 40px;
-  border: 1px solid #ffe8a8;
+  border: none;
+  width: 190px;
+  height: 60px;
+  border: 1px solid#4c5256;
   border-radius: 9999px;
+  cursor: pointer;
+}
+.comp-btn button p {
+  font-size: 15px;
+}
+.comp-btn button:hover {
+  background-color: #2d2e35;
 }
 
 /* social section */
@@ -167,9 +188,9 @@ a:active {
 }
 .social-section p {
   color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 44px;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 50px;
 }
 .social-section .social-btn {
   display: flex;
@@ -179,26 +200,50 @@ a:active {
   margin-bottom: 25px;
 }
 
-.social-section .social-btn .twitter-btn button {
+.twitter-btn button {
   background-color: #25262b;
   width: 320px;
   height: 104px;
-  border: none;
+  border: 1px solid#4c5256;
   border-radius: 14px;
   cursor: pointer;
 }
-.social-section .social-btn .linkedin-btn button {
+.twitter-btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter-btn button a {
+  height: auto;
+}
+.twitter-btn button:hover {
+  background-color: #2d2e35;
+}
+.linkedin-btn button {
   background-color: #25262b;
   width: 320px;
   height: 104px;
-  border: none;
+  border: 1px solid#4c5256;
   border-radius: 14px;
   cursor: pointer;
+}
+.linkedin-btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkedin-btn button a {
+  height: auto;
+}
+.linkedin-btn button:hover {
+  background-color: #2d2e35;
 }
 
 /* built */
 .abhinash {
-  color: #fff;
+  font-size: 12px;
+  color: #909296;
+  padding: 10px;
   text-align: center;
   margin-bottom: 8px;
 }
