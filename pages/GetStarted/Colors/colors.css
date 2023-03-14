@@ -260,7 +260,7 @@ a:active {
   font-weight: 400;
 }
 .page-section-list {
-  border-left: 1px solid #53545e;
+  /* border-left: 1px solid #53545e; */
   margin-top: 13px;
 }
 .page-section-list ul {
@@ -269,7 +269,8 @@ a:active {
   width: 180px;
 }
 .page-section-list li {
-  border: 1px solid transparent;
+  border-left: 1.5px solid #53545e;
+  /* border: 1px solid transparent; */
   padding: 3px 21px;
 }
 .page-section-list li a {
