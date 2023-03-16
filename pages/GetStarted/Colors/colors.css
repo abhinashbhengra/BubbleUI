@@ -267,7 +267,7 @@ a:active {
   /* border: 1px solid red; */
   list-style: none;
   /* list-style: none; */
-  /* width: 180px; */
+  width: 180px;
 }
 .page-section-list li {
   border-left: 1.5px solid #53545e;
