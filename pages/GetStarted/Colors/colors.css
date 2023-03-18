@@ -58,6 +58,9 @@ nav {
   gap: 10px;
   color: white;
 }
+.media-link a svg:hover {
+  fill: #fff;
+}
 a:link {
   text-decoration: none;
   color: #fff;
