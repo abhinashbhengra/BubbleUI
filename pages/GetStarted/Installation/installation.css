@@ -48,7 +48,7 @@ nav {
   font-weight: 200;
 }
 .docs-link p:hover {
-  color: #fff;
+  /* color: #fff; */
 }
 .media-link {
   /* border: 1px solid red; */
