@@ -85,7 +85,8 @@ a:active {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  margin: 0px 30px;
+  /* margin: 0px 30px; */
+  margin: 0px auto;
   margin-bottom: 116px;
   padding-top: 130px;
   padding-left: 120px;
@@ -93,12 +94,14 @@ a:active {
 }
 .left-section {
   position: relative;
+  /* flex-wrap: wrap; */
 }
 .heading {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 40px;
+  /* border: 1px solid red; */
 }
 .heading img {
   position: absolute;
@@ -128,7 +131,6 @@ a:active {
 .hero-btn:hover {
   background-color: #2d2e35;
 }
-
 /* second section */
 .second-section {
   display: flex;
@@ -247,4 +249,76 @@ a:active {
   padding: 10px;
   text-align: center;
   margin-bottom: 8px;
+}
+
+/* 1024 */
+@media only screen and (max-width: 1250px) {
+  .left-section .heading {
+    font-size: 50px;
+  }
+  .heading img {
+    position: absolute;
+    top: 112px;
+    right: -34px;
+  }
+  .right-section {
+    margin-right: 60px;
+  }
+  .right-section img {
+    width: 450px;
+  }
+  .img-container {
+    width: 300px;
+  }
+  .second-section p {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .right-section {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  .hero-section {
+    justify-content: center;
+  }
+  .heading {
+    width: 345px;
+  }
+  .heading p {
+    font-size: 36px;
+    display: inline;
+  }
+  .heading img {
+    width: 180px;
+    position: absolute;
+    top: 70px;
+    right: 12px;
+  }
+  .hero-btn {
+    height: 50px;
+  }
+  .hero-btn p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .heading img {
+    width: 190px;
+    position: absolute;
+    top: 63px;
+    right: 12px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .heading img {
+    width: 190px;
+    position: absolute;
+    top: 63px;
+    right: -14px;
+  }
 }
