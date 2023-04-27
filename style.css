@@ -304,6 +304,18 @@ a:active {
   .hero-btn p {
     font-size: 14px;
   }
+  .second-section {
+    width: 320px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 34px;
+  }
+  .second-section p {
+    font-size: 34px;
+  }
+  .second-section img {
+    width: 23px;
+  }
 }
 
 @media only screen and (max-width: 615px) {
