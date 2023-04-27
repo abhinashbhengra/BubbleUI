@@ -334,6 +334,9 @@ a:active {
     flex-direction: column;
     /* gap: 20px; */
   }
+  .sub-heading {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 615px) {
