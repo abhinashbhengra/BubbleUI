@@ -199,7 +199,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 140px;
+  gap: 10px;
   margin-bottom: 25px;
 }
 
@@ -329,6 +329,10 @@ a:active {
   }
   .comp-btn button {
     font-size: 14px;
+  }
+  .social-btn {
+    flex-direction: column;
+    /* gap: 20px; */
   }
 }
 
