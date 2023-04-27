@@ -316,6 +316,20 @@ a:active {
   .second-section img {
     width: 23px;
   }
+  .docs-btn button {
+    height: 50px;
+    width: 150px;
+  }
+  .docs-btn p {
+    font-size: 14px;
+  }
+  .comp-btn button {
+    height: 50px;
+    width: 150px;
+  }
+  .comp-btn button {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 615px) {
@@ -327,6 +341,9 @@ a:active {
   }
 }
 @media only screen and (max-width: 585px) {
+  body {
+    overflow-x: hidden;
+  }
   .heading img {
     width: 190px;
     position: absolute;
