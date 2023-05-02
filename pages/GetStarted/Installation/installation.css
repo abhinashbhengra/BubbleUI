@@ -45,6 +45,7 @@ nav {
 }
 .docs-link {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
 .docs-link p {
@@ -53,6 +54,9 @@ nav {
 }
 .docs-link p:hover {
   color: #fff;
+}
+.menu-icon {
+  display: none;
 }
 .media-link {
   /* border: 1px solid red; */
@@ -459,6 +463,9 @@ a:active {
   }
   .left-container {
     display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 }
 
