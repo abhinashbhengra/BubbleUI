@@ -319,9 +319,20 @@ a:active {
 }
 
 /* code section ------------------------------------------------*/
+.code-container {
+  padding-top: 80px;
+}
+.code-container iframe {
+  border: 0;
+  width: 100%;
+}
 /* 1 ---*/
 .code-part01 {
   position: relative;
+}
+.code-part01 code {
+  padding: auto;
+  border: 1px solid red;
 }
 .clipboard-btn01 {
   position: absolute;
